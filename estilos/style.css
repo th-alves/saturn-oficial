@@ -38,26 +38,43 @@ a:hover {
     transform: scale(1.2);
 }
 
-.q1 {
-    display:inline-block;
+.quadrado1 {
+    display: flex;
     border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    margin-left: 200px;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 40%;
+    right: 35%;
+
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.q1 > p {
-    text-align: center;
-}
-
-.q2 > p {
-    text-align: center;
-}
-
-.q2 {
-    display:inline-block;
+.quadrado2 {
+    display: flex;
     border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    margin-left: 200px;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    right: 55%;
+    top: 40%;
+
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    position: absolute;
+    top: 95%;
+    right: 46.5%;
+
+    text-align: center;
+    font-size: 0.8em;
 }
