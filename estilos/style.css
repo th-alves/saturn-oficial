@@ -39,53 +39,42 @@ a:hover {
 }
 
 .quadrado1 {
-    display:grid;
-    border: 2px solid black;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-
-    max-width: 480px;
+    text-align: center;
     width: 150px;
     height: 150px;
 
-    transition: transform 0.9s;
-}
+    border: 2px solid black;
+    border-radius: 20px;
+
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+  }
 
 .quadrado1:hover {
-    transform: scaleX(0.0);
     transform: scale(1.1);
     cursor: pointer;
-}
+  }
 
-.quadrado2 {
-    display: flex;
-    border: 2px solid black;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-
-    position: absolute;
-    right: 50%;
-    top: 50%;
-    transform: translate(150%, -50%);
-
-    max-width: 480px;
+  .quadrado2 {
+    text-align: center;
     width: 150px;
     height: 150px;
 
-    transition: transform 0.9s;
-}
+    border: 2px solid black;
+    border-radius: 20px;
+
+    transition: transform 0.3s ease-in-out;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+  }
 
 .quadrado2:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
-}
+  }
 
 footer {
     position: absolute;
