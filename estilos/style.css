@@ -58,7 +58,7 @@ main {
 
     position: absolute;
     top: 40%;
-    left: 30%;
+    left: 10%;
   }
 
 .quadrado1:hover {
@@ -88,10 +88,7 @@ main {
   }
 
 footer {
-   position: absolute;
-   top: 90%;
-   left: 50%;
-
     text-align: center;
     font-size: 0.8em;
+    padding-top: 670px;
 }
