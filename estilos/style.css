@@ -37,3 +37,27 @@ a:hover {
     text-decoration: underline;
     transform: scale(1.2);
 }
+
+.q1 {
+    display:inline-block;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+}
+
+.q1 > p {
+    text-align: center;
+}
+
+.q2 > p {
+    text-align: center;
+}
+
+.q2 {
+    display:inline-block;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+}
