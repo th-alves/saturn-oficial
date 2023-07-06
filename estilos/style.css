@@ -41,6 +41,7 @@ a:hover {
 .quadrado1 {
     display: flex;
     border: 2px solid black;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
 
@@ -48,10 +49,9 @@ a:hover {
     top: 40%;
     right: 35%;
 
-    width: 150px;
+    max-width: 840px;
+    width: 10%;
     height: 150px;
-    padding: 10px;
-    border-radius: 10px;
 
     transition: transform 0.9s;
 }
@@ -64,6 +64,7 @@ a:hover {
 .quadrado2 {
     display: flex;
     border: 2px solid black;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
 
@@ -71,10 +72,8 @@ a:hover {
     right: 55%;
     top: 40%;
 
-    width: 150px;
+    width: 10%;
     height: 150px;
-    padding: 10px;
-    border-radius: 10px;
 }
 
 footer {
