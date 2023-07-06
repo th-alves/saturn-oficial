@@ -52,6 +52,13 @@ a:hover {
     height: 150px;
     padding: 10px;
     border-radius: 10px;
+
+    transition: transform 0.9s;
+}
+
+.quadrado1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .quadrado2 {
