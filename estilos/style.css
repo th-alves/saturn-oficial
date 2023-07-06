@@ -2,11 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@500&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     height: 97vh;
     font-family: 'Overpass Mono', monospace;
-    margin: auto;
-    
-    width: 100%;
-    max-width: 480px;
+}
+
+header {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.279);
 }
