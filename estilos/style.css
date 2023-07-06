@@ -39,6 +39,7 @@ a:hover {
 }
 
 .quadrado1 {
+    width: 100vw;
     text-align: center;
     width: 150px;
     height: 150px;
@@ -47,7 +48,7 @@ a:hover {
     border-radius: 20px;
 
     transition: transform 0.3s ease-in-out;
-    
+
     position: absolute;
     top: 40%;
     left: 20%;
@@ -59,6 +60,7 @@ a:hover {
   }
 
   .quadrado2 {
+    width: 100vw;
     text-align: center;
     width: 150px;
     height: 150px;
