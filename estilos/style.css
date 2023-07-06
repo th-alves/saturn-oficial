@@ -39,24 +39,26 @@ a:hover {
 }
 
 .quadrado1 {
-    display: flex;
+    display:grid;
     border: 2px solid black;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
 
     position: absolute;
-    top: 40%;
-    right: 35%;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
 
     max-width: 480px;
-    width: 10%;
+    width: 150px;
     height: 150px;
 
     transition: transform 0.9s;
 }
 
 .quadrado1:hover {
+    transform: scaleX(0.0);
     transform: scale(1.1);
     cursor: pointer;
 }
@@ -69,12 +71,20 @@ a:hover {
     justify-content: center;
 
     position: absolute;
-    right: 55%;
-    top: 40%;
+    right: 50%;
+    top: 50%;
+    transform: translate(150%, -50%);
 
     max-width: 480px;
-    width: 10%;
+    width: 150px;
     height: 150px;
+
+    transition: transform 0.9s;
+}
+
+.quadrado2:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 footer {
