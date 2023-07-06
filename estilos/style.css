@@ -47,6 +47,7 @@ a:hover {
     border-radius: 20px;
 
     transition: transform 0.3s ease-in-out;
+    
     position: absolute;
     top: 40%;
     left: 20%;
@@ -66,6 +67,7 @@ a:hover {
     border-radius: 20px;
 
     transition: transform 0.3s ease-in-out;
+
     position: absolute;
     top: 40%;
     left: 60%;
