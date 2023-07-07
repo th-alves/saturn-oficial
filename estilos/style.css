@@ -8,8 +8,10 @@
 }
 
 body {
-    height: 97vh;
+    height: 100vh;
     font-family: 'Overpass Mono', monospace;
+    box-shadow: 2px 2px 15px black;
+    margin: auto;
 }
 
 header {
