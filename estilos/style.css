@@ -41,8 +41,28 @@ a:hover {
 /*Configurações Alteráveis*/
 #lupa {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 10%;
+    left: 80%;
+    
+    transition: transform 0.3s;
+}
+
+#lupa:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#carrinho {
+    position: absolute;
+    top: 10%;
+    left: 18%;
+
+    transition: transform 0.3s;
+}
+
+#carrinho:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .gif {
@@ -101,5 +121,5 @@ a:hover {
 footer {
     text-align: center;
     font-size: 0.8em;
-    padding-top: 670px;
+    padding-top: 650px;
 }
