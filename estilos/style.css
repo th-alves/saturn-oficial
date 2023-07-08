@@ -53,7 +53,7 @@ main {
     margin: auto;
     padding: 60px;
     
-    background-color: rgba(0, 255, 213, 0.379);
+    background-color: rgb(0, 255, 213);
     box-shadow: 2px 2px 15px black;
     border-radius: 20px;
 }
@@ -61,8 +61,14 @@ main {
 /*Configurações Alteráveis*/
 #lupa {
     position: absolute;
-    top: 13%;
-    left: 15%;
+    top: 10%;
+    left: 10%;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.411);
+
+    padding: 10px;
     
     transition: transform 0.3s;
 }
@@ -70,12 +76,19 @@ main {
 #lupa:hover {
     transform: scale(1.2);
     cursor: pointer;
+    box-shadow: 2px 2px 5px black;
 }
 
 #carrinho {
     position: absolute;
-    top: 13%;
-    left: 83%;
+    top: 10%;
+    left: 82%;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.411);
+
+    padding: 10px;
 
     transition: transform 0.3s;
 }
@@ -83,6 +96,7 @@ main {
 #carrinho:hover {
     transform: scale(1.2);
     cursor: pointer;
+    box-shadow: 2px 2px 5px black;
 }
 
 .gif-container {
@@ -110,13 +124,21 @@ main {
     margin: auto;
     margin-bottom: 130px;
 
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     box-sizing: border-box;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: transform 0.3s;
+}
+
+.quadrado1:hover {
+    transform: scale(1.2);
+    border-color: rgb(255, 105, 163);
+    cursor: pointer;
 }
 
 .quadrado2 {
@@ -131,11 +153,19 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    transition: transform 0.3s;
+}
+
+.quadrado2:hover {
+    transform: scale(1.2);
+    border-color: rgb(255, 105, 163);
+    cursor: pointer;
 }
 
 #insta {
     position: absolute;
-    top: 89%;
+    top: 87%;
     left: 49%;
 
     color: black;
