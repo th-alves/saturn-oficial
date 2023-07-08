@@ -64,7 +64,6 @@ main {
     top: 13%;
     left: 15%;
     
-    min-width: 600px;
     transition: transform 0.3s;
 }
 
@@ -77,8 +76,6 @@ main {
     position: absolute;
     top: 13%;
     left: 83%;
-
-    min-width: 600px;
 
     transition: transform 0.3s;
 }
