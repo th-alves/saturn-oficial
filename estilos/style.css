@@ -10,26 +10,26 @@
 body {
     height: 100vh;
     font-family: 'Overpass Mono', monospace;
-    box-shadow: 2px 2px 15px black;
-    margin: auto;
 }
 
-header {
+header > p {
     text-align: center;
     font-size: 0.8em;
     padding: 10px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.279);
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.300);
 }
 
 nav {
     text-align: center;
     padding: 10px;
     margin-top: 110px;
+    margin-bottom: 20px;
 }
 
 nav > a {
     display: inline-block;
     padding: 5px;
+
     font-size: 0.9em;
     text-decoration: none;
     color: black;
@@ -45,12 +45,25 @@ nav > a:hover {
 
     transform: scale(1.2);
 }
+
+main {
+    height: 350px;
+    width: 300px;
+    margin: auto;
+    padding: 50px;
+    
+    background-color: rgba(0, 255, 213, 0.379);
+    box-shadow: 2px 2px 15px black;
+    border-radius: 20px;
+}
+
 /*Configurações Alteráveis*/
 #lupa {
     position: absolute;
-    top: 10%;
-    left: 80%;
+    top: 13%;
+    left: 15%;
     
+    min-width: 600px;
     transition: transform 0.3s;
 }
 
@@ -61,8 +74,10 @@ nav > a:hover {
 
 #carrinho {
     position: absolute;
-    top: 10%;
-    left: 18%;
+    top: 13%;
+    left: 83%;
+
+    min-width: 600px;
 
     transition: transform 0.3s;
 }
@@ -72,63 +87,60 @@ nav > a:hover {
     cursor: pointer;
 }
 
-.gif {
+.gif-container {
+    position: relative;
+    text-align: center;
+    margin: auto;
+  }
+
+.gif-container img {
     position: absolute;
-    top: 5%;
-    left: 40%;
+    top: 0;
+    left: 50%;
 
-    border-radius: 20px;
+    transform: translateX(-50%);
 
-    height: 100px;
-    width: 100px;
-}
+    height: 120px;
+    padding: 10px;
+
+    border-radius: 50%;
+  }
 
 .quadrado1 {
-    width: 100%;
-    text-align: center;
     width: 150px;
     height: 150px;
+    margin: auto;
+    margin-bottom: 30px;
 
-    border: 4px solid black;
-    border-radius: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 
-    transition: transform 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    position: absolute;
-    top: 40%;
-    left: 8%;
-  }
-
-.quadrado1:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-  }
-
-  .quadrado2 {
-    width: 100vw;
-    text-align: center;
+.quadrado2 {
     width: 150px;
     height: 150px;
+    margin: auto;
 
-    border: 4px solid black;
-    border-radius: 20px; 
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
 
-    transition: transform 0.3s ease-in-out;
-
-    position: absolute;
-    top: 40%;
-    left: 60%;
-  }
-
-.quadrado2:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #insta {
+    
     position: absolute;
-    top: 91%;
+    top: 100%;
     left: 49%;
+
     color: black;
 
     transition: transform 0.9;
@@ -141,7 +153,7 @@ nav > a:hover {
 footer {
     text-align: center;
     font-size: 0.8em;
-    padding-top: 670px;
+    padding-top: 50px;
 }
 
 footer > a {
