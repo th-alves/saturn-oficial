@@ -59,7 +59,7 @@ main {
     border-radius: 20px;
 }
 
-/*Configurações Sidebar*/
+/*Configurações da Sidebar*/
 .sidebar {
     position: fixed;
     top:  0;
@@ -257,6 +257,7 @@ main {
 .sidebar.active ~ .home_content {
     left: 300px;
 }
+/*Configurações da Sidebar*/
 
 /*Configurações Alteráveis*/
 #lupa {
