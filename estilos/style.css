@@ -41,6 +41,7 @@ nav > a:hover {
     text-decoration: underline;
     background-color: black;
     color: white;
+
     border-radius: 5px;
 
     transform: scale(1.1);
@@ -53,34 +54,177 @@ main {
     margin: auto;
     padding: 60px;
     
-    background-color: rgb(222, 101, 250);
+    background-color: rgb(149, 20, 178);
     box-shadow: 2px 2px 15px black;
     border-radius: 20px;
 }
 
-/*Configurações Alteráveis*/
+/*Configurações Sidebar*/
+.sidebar {
+    position: fixed;
+    top:  0;
+    left: 0;
+    width: 240px;
 
-#sidebar-button {
+    background: #ffffff;
+
+    padding: 70px 13px;
+    height: 100%;
+    box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.170);
+}
+
+.sidebar .logo_content {
+    display: flex;
+    height: 50px;
+    width: 100%;
+
+    font-size: 30px;
+    margin-left: 35px;
+
+    align-items: center;
+    pointer-events: none;
+    opacity: 1;
+}
+
+.sidebar .logo_content .log .logo_name {
+    font-size: 23px;
+    font-weight: 600px;
+    margin: 0 10px;
+}
+
+.sidebar #btn {
     position: absolute;
-    appearance: none;
+    top: 68px;
+    left: 85%;
+
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+
+    text-align: center;
+    line-height: 50px;
+
+    transform: translate(-50%);
+}
+
+.sidebar .src {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sidebar .src input {
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 50px);
+    left: 0;
+    top: 0;
+
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    outline: none;
     border: none;
-    cursor: pointer;
-    font-size: 28px;
-    z-index: 1;
-    background-color: rgb(0, 0, 0, 0);
-    transition: all 0.6s ease;
-    left: 15%;
-    top: 10%;
+
+    background: rgb(149, 20, 178);
+    color: white;
+
+    padding-left: 50px;
+    font-size: 15px;
 }
 
-#sidebar-button.active {
-    transform: rotate(90deg);
+.sidebar .src .bx-search {
+    position: absolute;
+    z-index: 99;
+
+    font-size: 22px;
+    color: white;
 }
 
-#sidebar-button:hover {
-    transform: scale(1.05);
+.sidebar .src .bx-search:hover {
+    color: rgb(149, 20, 178);
 }
 
+.sidebar .src .bx-search:hover ~ input {
+    background: white;
+}
+
+.sidebar i {
+    height: 50px;
+    min-width: 50px;
+
+    border-radius: 12px;
+
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+
+    color: black;
+}
+
+.sidebar ul {
+    margin-top: 20px;
+}
+
+.sidebar ul li {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+
+    list-style: none;
+    line-height: 50px
+}
+
+.sidebar ul li a {
+    display: flex;
+
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 13px;
+
+    align-items: center;
+    white-space: nowrap;
+    border-radius: 10px;
+}
+
+.sidebar ul li a:hover {
+    color: white;
+    background: rgb(149, 20, 178);
+}
+
+.sidebar ul li .tooltip {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 300px;
+
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+    height: 35px;
+    width: 130px;
+
+    background: white;
+    color: black;
+
+    line-height: 35px;
+    font-size: 13px;
+    text-align: center;
+
+    pointer-events: none;
+    transform: translate(-45%, -50%);
+    opacity: 0;
+    transition: all .5s ease;
+    
+}
+
+.sidebar ul li:hover .tooltip {
+    opacity: 1;
+    top: 50%;
+}
+
+/*Configurações Alteráveis*/
 #lupa {
     position: absolute;
     top: 12%;

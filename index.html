@@ -7,9 +7,8 @@
     <link rel="shortcut icon" href="imagens/saturn-favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="estilos/style.css">
-    <style>
-        
-    </style>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header><p>Todas as peças de frio da loja com desconto!</p>
@@ -41,7 +40,54 @@
         <i class="fa-solid fa-magnifying-glass" id="lupa"></i>
     </div>
 
-    <button id="sidebar-button" class="fa-solid fa-bars" onclick="toggleSidebar" ()></button>
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <div class="logo_name">Saturn</div>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+
+        <div class="src">
+            <i class='bx bx-search' ></i>
+            <input type="text" placeholder="Pesquise...">
+        </div>
+
+        <ul class="nav">
+            <li>
+                <a href="#">
+                    <i class='bx bxs-home' ></i>
+                    <span class="link_name">Ínicio</span>
+                </a>
+                <span class="tooltip">Ínicio</span> 
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-plus-medical' ></i>
+                    <span class="link_name">Sobre Nós</span>
+                </a>
+                <span class="tooltip">Sobre Nós</span> 
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-t-shirt' ></i>
+                    <span class="link_name">Coleção</span>
+                </a>
+                <span class="tooltip">Coleção</span> 
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-phone' ></i>
+                    <span class="link_name">Contato</span>
+                </a>
+                <span class="tooltip">Contato</span> 
+            </li>
+        </ul>
+    </div>
+
+    <div class="home_content">
+        <div class="text">Home Content</div>
+    </div>
 
     <footer>&copy 2023,<a href="https://www.instagram.com/saturnsonline/" target="_blank">Saturn</a><br>By <a href="https://www.instagram.com/th_ntc" target="_blank">Thgx$</a></footer>
 </body>
