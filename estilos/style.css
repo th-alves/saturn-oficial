@@ -54,8 +54,7 @@ main {
     margin: auto;
     padding: 60px;
     
-    background-color: rgb(149, 20, 178);
-    box-shadow: 2px 2px 15px black;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.56);
     border-radius: 20px;
 }
 
@@ -103,7 +102,7 @@ main {
 
 .sidebar #btn {
     position: absolute;
-    top: 68px;
+    top: 40px;
     left: 50%;
 
     font-size: 30px;
@@ -114,6 +113,7 @@ main {
     line-height: 50px;
 
     transform: translate(-50%);
+    cursor: pointer;
 }
 
 .sidebar.active #btn {
@@ -260,29 +260,9 @@ main {
 /*Configurações da Sidebar*/
 
 /*Configurações Alteráveis*/
-#lupa {
-    position: absolute;
-    top: 12%;
-    left: 82%;
-
-    border: 2px solid black;
-    border-radius: 20px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.411);
-
-    padding: 10px;
-    
-    transition: transform 0.3s;
-}
-
-#lupa:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-    box-shadow: 2px 2px 5px black;
-}
-
 #carrinho {
     position: absolute;
-    top: 6%;
+    top: 10%;
     left: 82%;
 
     border: 2px solid black;
