@@ -71,6 +71,7 @@ main {
     padding: 70px 13px;
     height: 100%;
     box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.170);
+    transition: all .5s ease;
 }
 
 .sidebar.active {
@@ -143,6 +144,8 @@ main {
 
     padding-left: 50px;
     font-size: 15px;
+
+    transition: all .5s ease;
 }
 
 .sidebar .src .bx-search {
@@ -151,6 +154,7 @@ main {
 
     font-size: 22px;
     color: white;
+    transition: all .5s ease;
 }
 
 .sidebar .src .bx-search:hover {
@@ -198,6 +202,7 @@ main {
     align-items: center;
     white-space: nowrap;
     border-radius: 10px;
+    transition: all .4s ease;
 }
 
 .sidebar ul li a:hover {
@@ -238,7 +243,10 @@ main {
     transform: translate(-45%, -50%);
     opacity: 0;
     transition: all .5s ease;
-    
+}
+
+.sidebar.active ul li .tooltip {
+    display: none;
 }
 
 .sidebar ul li:hover .tooltip {
@@ -246,18 +254,8 @@ main {
     top: 50%;
 }
 
-.home_content {
-    position: absolute;
-    height: 100%;
-    width: calc(100% = 300px);
+.sidebar.active ~ .home_content {
     left: 300px;
-}
-
-.home_content .text {
-    font-size: 25px;
-    font-weight: 500;
-    color: #242424;
-    padding: 12px 24px;
 }
 
 /*Configurações Alteráveis*/
