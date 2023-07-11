@@ -79,6 +79,7 @@ header > p {
 
     transform: translate(-50%);
     cursor: pointer;
+    transition: all .5s ease;
 }
 
 .sidebar.active #btn {
@@ -167,7 +168,7 @@ header > p {
     align-items: center;
     white-space: nowrap;
     border-radius: 10px;
-    transition: all .4s ease;
+    transition: all .5s ease;
 }
 
 .sidebar ul li a:hover {
@@ -270,7 +271,7 @@ header > p {
     height: 150px;
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
@@ -313,7 +314,7 @@ header > p {
 
 #insta {
     position: absolute;
-    top: 640px;
+    top: 670px;
     left: 49%;
 
     color: black;
