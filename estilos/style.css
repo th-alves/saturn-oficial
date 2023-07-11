@@ -312,7 +312,7 @@ header > p {
 
 #insta {
     position: absolute;
-    top: 610px;
+    top: 640px;
     left: 49%;
 
     color: black;
@@ -327,7 +327,7 @@ header > p {
 footer {
     text-align: center;
     font-size: 0.8em;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 footer > a {
