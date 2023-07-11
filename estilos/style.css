@@ -210,11 +210,16 @@ main {
     pointer-events: none;
 }
 
+.sidebar.active .link_name {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 .sidebar ul li .tooltip {
     display: block;
     position: absolute;
     top: 0;
-    left: 300px;
+    left: 130px;
 
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
