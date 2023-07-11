@@ -19,34 +19,6 @@ header > p {
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.300);
 }
 
-nav {
-    text-align: center;
-    padding: 10px;
-    margin-top: 110px;
-    margin-bottom: 20px;
-}
-
-nav > a {
-    display: inline-block;
-    padding: 5px;
-
-    font-size: 0.9em;
-    text-decoration: none;
-    color: black;
-
-    transition: transform 0.9s;
-}
-
-nav > a:hover {
-    text-decoration: underline;
-    background-color: black;
-    color: white;
-
-    border-radius: 5px;
-
-    transform: scale(1.1);
-}
-
 main {
     max-height: 500px;
     height: 450px;
@@ -284,6 +256,7 @@ main {
     position: relative;
     text-align: center;
     margin: auto;
+    padding: 80px;
   }
 
 .gif-container img {
