@@ -64,7 +64,7 @@ main {
     position: fixed;
     top:  0;
     left: 0;
-    width: 240px;
+    width: 50px;
 
     background: #ffffff;
 
@@ -73,7 +73,11 @@ main {
     box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.170);
 }
 
-.sidebar .logo_content {
+.sidebar.active {
+    width: 240px;
+}
+
+.sidebar .logo_content .logo{
     display: flex;
     height: 50px;
     width: 100%;
@@ -83,10 +87,14 @@ main {
 
     align-items: center;
     pointer-events: none;
+    opacity: 0;
+}
+
+.sidebar.active .logo_content .logo {
     opacity: 1;
 }
 
-.sidebar .logo_content .log .logo_name {
+.sidebar .logo_content .logo .logo_name {
     font-size: 23px;
     font-weight: 600px;
     margin: 0 10px;
@@ -95,7 +103,7 @@ main {
 .sidebar #btn {
     position: absolute;
     top: 68px;
-    left: 85%;
+    left: 50%;
 
     font-size: 30px;
     height: 50px;
@@ -105,6 +113,10 @@ main {
     line-height: 50px;
 
     transform: translate(-50%);
+}
+
+.sidebar.active #btn {
+    left: 85%;
 }
 
 .sidebar .src {
@@ -193,6 +205,11 @@ main {
     background: rgb(149, 20, 178);
 }
 
+.sidebar .link_name {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .sidebar ul li .tooltip {
     display: block;
     position: absolute;
@@ -222,6 +239,20 @@ main {
 .sidebar ul li:hover .tooltip {
     opacity: 1;
     top: 50%;
+}
+
+.home_content {
+    position: absolute;
+    height: 100%;
+    width: calc(100% = 300px);
+    left: 300px;
+}
+
+.home_content .text {
+    font-size: 25px;
+    font-weight: 500;
+    color: #242424;
+    padding: 12px 24px;
 }
 
 /*Configurações Alteráveis*/
