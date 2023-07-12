@@ -11,7 +11,7 @@ body {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
 
-    background-image: linear-gradient(to right top, #DB3CFF, #FB5EFF, #FF7DFF);
+    background-image: linear-gradient(to right top, #201199, #0051c6, #0080de, #00abe7, #12d4eb);
 }
 
 header > p {
@@ -30,7 +30,7 @@ header > p {
     width: 50px;
     min-height: 100vh;
 
-    background: #BC00FF;
+    background: #0051c6;
 
     padding: 70px 13px;
     height: 100%;
