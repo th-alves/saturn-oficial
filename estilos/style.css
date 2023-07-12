@@ -10,6 +10,8 @@
 body {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
+
+    background-image: linear-gradient(to right top, #DB3CFF, #FB5EFF, #FF7DFF);
 }
 
 header > p {
@@ -20,8 +22,6 @@ header > p {
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.300);
 }
 
-/*COLOCAR CONFIG DA MAIN*/
-
 /*Configurações da Sidebar*/
 .sidebar {
     position: fixed;
@@ -30,7 +30,7 @@ header > p {
     width: 50px;
     min-height: 100vh;
 
-    background: #ffffff;
+    background: #BC00FF;
 
     padding: 70px 13px;
     height: 100%;
@@ -226,6 +226,7 @@ header > p {
 /*Configurações da Sidebar*/
 
 /*Configurações Alteráveis*/
+
 #carrinho {
     position: absolute;
     top: 10%;
