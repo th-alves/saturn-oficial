@@ -1,0 +1,76 @@
+/*Config para Telas Grandes*/
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) and (max-width: 1920px) { /* Configs PC*/
+
+    .sidebar {
+        display: none;
+    }
+
+    nav a {
+        display: inline-block;
+        position: relative;
+        top: -140px;
+        left: 80px;
+        
+        text-decoration: none;
+        color: black;
+        
+        padding-left: 20px;
+        padding-right: 20px;
+
+        transition: transform 0.4s ease;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        color: white;
+        background-color: black;
+
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.697);
+        border-radius: 20px;
+
+        transform: scale(1.05) translateX(3px);
+    }
+
+    #insta {
+        position: absolute;
+        top: 660px;
+        left: 49.5%;
+    
+        color: black;
+    }
+    
+    #insta:hover {
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /*Configs Tablet*/
+
+    .sidebar {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #insta {
+        position: absolute;
+        top: 680px;
+        left: 49.5%;
+    
+        color: black;
+    }
+    
+    #insta:hover {
+        cursor: pointer;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 0.8em;
+        margin-top: 92px;
+    }
+}
