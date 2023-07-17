@@ -235,6 +235,7 @@ svg {
     position: absolute;
     top: 63px;
     left: 170px;
+    
     transform: scale(0);
     transition: transform 400ms;
     }
