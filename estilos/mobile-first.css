@@ -43,7 +43,7 @@ header > p {
     transform: translateX(0);
 }
 
-.sidebar .logo_content .logo{
+.sidebar .logo_content .logo {
     display: flex;
     height: 50px;
     width: 100%;
@@ -63,7 +63,7 @@ header > p {
 .sidebar .logo_content .logo .logo_name {
     font-size: 23px;
     font-weight: 600px;
-    margin: 0 10px;
+    margin: 0px 10px;
 }
 
 .sidebar .src {
@@ -209,9 +209,7 @@ header > p {
 svg {
     position: absolute;
     width: 60px;
-    top: 50px;
-    left: 35px;
-}
+    }
 
     .plates {
     display: flex;
@@ -227,6 +225,8 @@ svg {
 
     .burger {
     filter: url(#gooeyness);
+    top: 65px;
+    left: 35px;
     }
 
     .burger:hover {
@@ -235,8 +235,8 @@ svg {
 
     .x {
     position: absolute;
-    top: 45px;
-    left: 20px;
+    top: 63px;
+    left: 170px;
     transform: scale(0);
     transition: transform 400ms;
     }
