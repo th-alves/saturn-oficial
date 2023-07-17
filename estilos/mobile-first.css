@@ -229,6 +229,10 @@ svg {
     filter: url(#gooeyness);
     }
 
+    .burger:hover {
+        cursor: pointer;
+    }
+
     .x {
     position: absolute;
     top: 45px;
