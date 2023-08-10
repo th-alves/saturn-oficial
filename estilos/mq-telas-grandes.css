@@ -1,7 +1,7 @@
 /*Config para Telas Grandes*/
 @charset "UTF-8";
 
-@media screen and (min-width: 992px) and (max-width: 1920px) { /* Configs PC*/
+@media screen and (min-width: 992px) and (max-width: 2560px) { /* Configs PC*/
 
     .sidebar {
         display: none;

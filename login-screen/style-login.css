@@ -104,6 +104,7 @@ display: none;
   position: absolute;
   border-radius: 6px;
   -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.506);
 }
