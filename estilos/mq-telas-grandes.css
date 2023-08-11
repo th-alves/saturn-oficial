@@ -11,6 +11,26 @@
         display: none;
     }
 
+    #user {
+        position: absolute;
+        top: 10%;
+        left: 78%;
+    
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.24);
+    
+        padding: 10px;
+    
+        transition: transform 0.3s;
+    }
+
+    #user:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    }
+
     nav a {
         display: inline-block;
         position: relative;
@@ -54,6 +74,29 @@
 
     .sidebar {
         display: block;
+    }
+
+    svg {
+        display: none;
+    }
+
+    #user {
+        position: absolute;
+        top: 10%;
+        left: 76%;
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.24);
+    
+        padding: 10px;
+    
+        transition: transform 0.3s;
+    }
+
+    #user:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow: 2px 2px 5px rgb(0, 0, 0);
     }
 
     nav {

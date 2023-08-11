@@ -348,6 +348,26 @@ svg {
     box-shadow: 2px 2px 5px black;
 }
 
+#user {
+    position: absolute;
+    top: 16%;
+    left: 82.5%;
+
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.24);
+
+    padding: 10px;
+
+    transition: transform 0.3s;
+}
+
+#user:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
 .gif-container {
     position: relative;
     padding: 80px;
