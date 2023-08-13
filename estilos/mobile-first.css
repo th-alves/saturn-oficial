@@ -23,6 +23,11 @@ header p, img {
     display: none;
 }
 
+main {
+    position: relative;
+    top: 30%;
+}
+
 /*Configurações da Sidebar*/
 .sidebar {
     position: fixed;
@@ -432,9 +437,10 @@ svg {
 }
 
 footer {
-    text-align: center;
+    position: relative;
+    top: 28%;
     font-size: 0.8em;
-    margin-top: 12px;
+    text-align: center;
 }
 
 footer > a {
