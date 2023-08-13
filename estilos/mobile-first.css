@@ -19,8 +19,15 @@ body {
     background-size: cover;
 }
 
-header p, img {
-    display: none;
+header p {
+    position: absolute;
+    left: 32%;
+
+    font-family: 'Rubik Wet Paint', cursive;
+    text-align: center;
+    font-size: 3rem;
+
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.548);
 }
 
 main {
@@ -69,6 +76,8 @@ main {
 .sidebar .logo_content .logo .logo_name {
     font-size: 23px;
     font-weight: 600px;
+
+    font-family: 'Rubik Wet Paint', cursive;
 }
 
 .sidebar .src {
@@ -333,6 +342,10 @@ svg {
     transition: transform 400ms 350ms;
     }
 /*Configurações Alteráveis*/
+
+.img-container {
+    display: none;
+}
 
 #carrinho {
     position: absolute;
