@@ -12,8 +12,8 @@
         display: none;
     }
 
-    header p, img {
-        display: block;
+    header p {
+        display: none;
     }
 
     header {
@@ -21,9 +21,13 @@
         box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
     }
 
+    .img-container {
+        display: block;
+    }
+
     .img-container img {
         position: absolute;
-        top: -3%;
+        top: -2%;
         left: 5%;
 
         height: 120px;
@@ -128,8 +132,8 @@
         display: none;
     }
 
-    header p, img {
-        display: block;
+    header p {
+        display: none;
     }
 
     header {
@@ -137,10 +141,14 @@
         box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
     }
 
+    .img-container {
+        display: block;
+    }
+
     .img-container img {
         position: absolute;
         top: -20px;
-        left: 5%;
+        left: -2%;
 
         height: 120px;
         padding: 20px;
