@@ -72,6 +72,7 @@
         
         text-decoration: none;
         color: black;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
         
         padding-left: 20px;
         padding-right: 20px;
@@ -116,11 +117,38 @@
 @media screen and (min-width: 768px) and (max-width: 992px) { /*Configs Tablet*/
 
     .sidebar {
-        display: block;
+        display: none;
     }
 
     svg {
         display: none;
+    }
+
+    header p, img {
+        display: block;
+    }
+
+    header > p {
+        font-family: 'Rubik Wet Paint', cursive;
+        text-align: left;
+        font-size: 3em;
+        padding: 20px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .img-container img {
+        position: absolute;
+        top: 0%;
+        left: 24%;
+    
+        height: 90px;
+        padding: 10px;
+    }
+
+    nav {
+        position: absolute;
+        top: 15%;
+        left: 35%;
     }
 
     #user {
@@ -142,14 +170,42 @@
         box-shadow: 2px 2px 5px rgb(0, 0, 0);
     }
 
-    nav {
-        display: none;
+    nav a {
+        display: inline-block;
+        position: relative;
+        top: -140px;
+        left: 80px;
+        
+        text-decoration: none;
+        color: black;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        
+        padding-left: 20px;
+        padding-right: 20px;
+
+        transition: transform 0.4s ease;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        color: white;
+        background-color: black;
+
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.697);
+        border-radius: 20px;
+
+        transform: scale(1.05);
+    }
+
+    main {
+        position: relative;
+        top: 20%;
     }
 
     #insta {
         position: absolute;
-        top: 680px;
-        left: 49.5%;
+        top: 89%;
+        left: 49.6%;
     
         color: black;
     }
@@ -159,8 +215,7 @@
     }
 
     footer {
-        text-align: center;
-        font-size: 0.8em;
-        margin-top: 92px;
+        position: relative;
+        top: 40%;
     }
 }
