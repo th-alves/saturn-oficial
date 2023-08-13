@@ -21,7 +21,7 @@ body {
 
 header p {
     position: absolute;
-    left: 32%;
+    left: 30%;
 
     font-family: 'Rubik Wet Paint', cursive;
     text-align: center;
@@ -439,8 +439,8 @@ svg {
 
 #insta {
     position: absolute;
-    top: 660px;
-    left: 49.5%;
+    top: 92%;
+    left: 49%;
 
     color: black;
 }
@@ -451,7 +451,7 @@ svg {
 
 footer {
     position: relative;
-    top: 25%;
+    top: 30%;
     font-size: 0.8em;
     text-align: center;
 }
