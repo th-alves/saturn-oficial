@@ -26,7 +26,6 @@ header p {
     font-family: 'Rubik Wet Paint', cursive;
     text-align: center;
     font-size: 3rem;
-    color: white;
 
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.548);
 }
@@ -436,18 +435,6 @@ svg {
     cursor: pointer;
 
     box-shadow: 2px 2px 15px black;
-}
-
-#insta {
-    position: absolute;
-    top: 90%;
-    left: 62%;
-
-    color: black;
-}
-
-#insta:hover {
-    cursor: pointer;
 }
 
 footer {
