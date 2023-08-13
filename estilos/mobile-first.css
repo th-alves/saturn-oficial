@@ -439,7 +439,7 @@ svg {
 
 #insta {
     position: absolute;
-    top: 680px;
+    top: 720px;
     left: 49.5%;
 
     color: black;
@@ -451,7 +451,7 @@ svg {
 
 footer {
     position: relative;
-    top: 28%;
+    top: 33%;
     font-size: 0.8em;
     text-align: center;
 }
