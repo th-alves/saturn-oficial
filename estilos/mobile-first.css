@@ -1,6 +1,8 @@
 /*Versão Mobile First*/
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
@@ -13,13 +15,12 @@
 
 body {
     height: 100vh;
+    background: url(../imagens/bg-pink.jpg) center center no-repeat;
+    background-size: cover;
 }
 
-header > p {
-    text-align: center;
-    font-size: 0.8em;
-    padding: 10px;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.300);
+header p, img {
+    display: none;
 }
 
 /*Configurações da Sidebar*/
@@ -367,24 +368,6 @@ svg {
     cursor: pointer;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
-
-.gif-container {
-    position: relative;
-    padding: 80px;
-  }
-
-.gif-container img {
-    position: absolute;
-    top: 0;
-    left: 50%;
-
-    transform: translateX(-50%);
-
-    height: 120px;
-    padding: 10px;
-
-    border-radius: 50%;
-  }
 
 .quadrado1 {
     width: 150px;
