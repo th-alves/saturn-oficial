@@ -1,6 +1,120 @@
 @charset "UTF-8";
 
-/*Configs Telas Grandes UltraWide etc*/
+@media screen and (min-width: 1920px) and (max-width: 2560px){/*Configs Telas Grandes UltraWide etc*/
+
+    svg {
+        display: none;
+    }
+
+    header p {
+        display: none;
+    }
+
+    header {
+        padding: 45px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .img-container {
+        display: block;
+    }
+
+    .img-container img {
+        position: absolute;
+        top: -2%;
+        left: 5%;
+
+        height: 120px;
+        padding: 20px;
+    }
+
+    #carrinho {
+        position: absolute;
+        top: 12%;
+        left: 73%;
+    }
+
+    #user {
+        position: absolute;
+        top: 12%;
+        left: 70%;
+    
+        border: 2px solid black;
+        border-radius: 20px;
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.24);
+    
+        padding: 10px;
+    
+        transition: transform 0.3s;
+    }
+
+    #user:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+
+        position: absolute;
+        top: 3%;
+        left: 65%;
+    }
+
+    .nav-list ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .nav-item {
+        margin: 0 15px;
+    }
+
+    .nav-link {
+        text-decoration: none;
+        font-size: 1.15rem;
+        font-weight: 600;
+
+        color: black;
+
+        transition: all 0.6s ease-in-out;
+    }
+
+    .nav-list a:hover {
+        color: white;
+        background-color: black;
+
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.697);
+        border-radius: 20px;
+
+        padding: 5px;
+    }
+
+    main {
+        position: relative;
+        top: 10%;
+    }
+
+    #insta {
+        position: absolute;
+        top: 610px;
+        left: 49.7%;
+    
+        color: black;
+    }
+    
+    #insta:hover {
+        cursor: pointer;
+    }
+
+    footer {
+        position: relative;
+        top: 40%;
+    }
+}
 
 @media screen and (min-width: 992px) and (max-width: 1920px) { /* Configs PC*/
 
