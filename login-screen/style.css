@@ -55,14 +55,13 @@ header {
     height: 3px;
     background: white;
     border-radius: 3px;
-    transform-origin: right;
-    transform: scaleZ(0);
+
     transition: transform .5s;
 }
 
 .navigation a:hover::after {
-    transform-origin: left;
-    transform: scaleX(1);
+    transform-origin: center;
+    transform: scale(1.1);
 }
 
 .navigation .btnlogin-popup {
