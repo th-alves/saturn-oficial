@@ -1,76 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <title>Login Saturn</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style-login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturn Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<div class="section">
-		<div class="container">
-			<div class="row full-height justify-content-center">
-				<div class="col-12 text-center align-self-center py-5">
-					<div class="section pb-5 pt-5 pt-sm-2 text-center">
-              <h6 class="mb-0 pb-3"><span>Fazer Login</span><span>Cadastrar-se</span></h6>
-				<!--CheckBox-->
-					<input class="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
-					<label for="reg-log"></label>
-				<!--CheckBox-->
-				<!--Card-Front-->
-	<div class="card-3d-wrap mx-auto">
-		<div class="card-3d-wrapper">
-			<div class="card-front">
-				<div class="center-wrap">
-					<div class="section text-center">
+    <!--header-->
+    <header>
+        <h2 class="logo">Saturn</h2>
+        <nav class="navigation">
+            <a href="#">Início</a>
+            <button class="btnlogin-popup">Login</button>
+        </nav>
+    </header>
 
-					<h4 class="mb-4 pb-3">Login</h4>
-					<div class="form-group">
-						<input type="email" class="form-style" placeholder="Email" required>
-						<i class="input-icon uil uil-at"></i>
-					</div>
-					<div class="form-group mt-2">
-						<input type="password" class="form-style" placeholder="Senha" required minlength="6" maxlength="10">
-						<i class="input-icon uil uil-lock-alt"></i>
-					</div>
-						<a href="#" class="btn mt-4">Entrar</a>
-						<p class="mb-0 mt-4 text-center"><a href="#" class="link">Esqueceu a senha?</a></p>
-					</div>
-				</div>
-			</div>
-				<!--Card-Front-->
-				<!--Card-Back-->
-	<div class="card-back">
-		<div class="center-wrap">
-			<div class="section text-center">
+    <!-- Card Front Login -->
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#" method="post" autocomplete="on">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>E-mail</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Senha</label>
+                </div>
+                <div class="lembrar">
+                    <label><input type="checkbox">
+                        Manter conectado</label>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+                <button type="submit" class="btn">Entrar</button>
+                <div class="login-register">
+                    <p>Não tem uma conta?<a href="#" class="register-link"> Registre-se aqui</a></p>
+                </div>
+            </form>
+        </div>
 
-				<h4 class="mb-3 pb-3">Criar Conta</h4>
-				<div class="form-group">
-					<input type="text" class="form-style" placeholder="Nome completo" required>
-					<i class="input-icon uil uil-user"></i>
-				</div>	
-				<div class="form-group mt-2">
-					<input type="tel" class="form-style" placeholder="Celular" required>
-					<i class="input-icon uil uil-phone"></i>
-				</div>	
-				<div class="form-group mt-2">
-					<input type="email" class="form-style" placeholder="Email" required>
-					<i class="input-icon uil uil-at"></i>
-				</div>
-				<div class="form-group mt-2">
-					<input type="password" class="form-style" placeholder="Senha" required minlength="6" maxlength="10">
-					<i class="input-icon uil uil-lock-alt"></i>
-				</div>
-				<a href="#" class="btn mt-4">Registrar</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-				<!--Card-Back-->
+        <!-- Card Back Registro -->
+        <div class="form-box register">
+            <h2>Cadastro</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label>Nome Completo</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>E-mail</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Senha</label>
+                </div>
+                
+                <button type="submit" class="btn">Criar Conta</button>
+                <div class="login-register">
+                    <p>Já tem uma conta? <a href="#" class="login-link"> Entrar </a></p>
+                </div>
+            </form>
+        </div>
+    </div>
 
-<footer><a href="https://www.instagram.com/th_ntc/" target="_blank">By<br> Thgx$</a></footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
+
 </html>
