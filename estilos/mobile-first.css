@@ -19,6 +19,10 @@ body {
     background-size: cover;
 }
 
+header img {
+    display: none;
+}
+
 header p {
     position: absolute;
     left: 30%;
