@@ -15,14 +15,22 @@
     <header>
         <p>Saturn</p>
         <img src="imagens/st-logo.png" alt="gif saturn">
-        <nav class="navigation">
-            <ul>
-                <a href="#">Ínicio</a>
-                <a href="#">Sobre nós</a>
-                <a href="#">Coleção</a>
-                <a href="#">Contato</a>
-            </ul>
-        </nav>
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+                <ul>
+                    <li><a href='#'>Início</a></li>
+                    <li><a href='#'>Sobre nós</a></li>
+                    <li><a class='dropdown-arrow' href='#'>Coleções</a>
+                    <ul class='sub-menus'>
+                        <li><a href='#'>Coleção 1</a></li>
+                        <li><a href='#'>Coleção 2</a></li>
+                        <li><a href='#'>Coleção 3</a></li>
+                        <li><a href='#'>Coleção 4</a></li>
+                    </ul>
+                    </li>
+                    <li><a href='#'>Fale conosco</a></li>
+                </ul>
+          </nav>
     </header>
 
     <main>
@@ -115,6 +123,7 @@
     <footer>&copy 2023,<a href="https://www.instagram.com/saturnsonline/" target="_blank"> Saturn</a><br>By <a href="https://www.instagram.com/th_ntc" target="_blank">Thgx$</a></footer>
 
     <script>
+        //Menu Hamburguinho
         let burger = document.querySelector('.burger');
         let sidebar = document.querySelector('.sidebar');
         let x = document.querySelector('.x');
