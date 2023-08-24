@@ -63,8 +63,6 @@
         margin-left: 5px;
     }
     #menu li a:hover {
-        color: white;
-        background-color: black;
         border-radius: 10px;
         text-decoration: underline;
         transform: scale(1.05);
@@ -234,8 +232,6 @@
         margin-left: 5px;
     }
     #menu li a:hover {
-        color: white;
-        background-color: black;
         border-radius: 10px;
         text-decoration: underline;
         transform: scale(1.05);
