@@ -487,7 +487,7 @@
             transform: translateY(97vh) scale(0);
         }
         100%{
-            transform: translateY(-0vh) scale(8);
+            transform: translateY(-0vh) scale(10);
         }
     }
 }
