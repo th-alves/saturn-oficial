@@ -179,9 +179,9 @@
         display: none;
     }
 
-    header img {
-        display: block;
-        width: 150px;
+    header img{
+        position: fixed;
+        left: 5%;
     }
 
     header {
@@ -223,6 +223,8 @@
     }
 
     #menu {
+        position: relative;
+        left: 70%;
         color: black;
         height: 45px;
         padding-left: 18px;

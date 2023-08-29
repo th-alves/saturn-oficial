@@ -25,17 +25,6 @@ header img {
     padding: 10px;
 }
 
-header p {
-    position: absolute;
-    left: 30%;
-
-    font-family: 'Rubik Wet Paint', cursive;
-    text-align: center;
-    font-size: 3rem;
-
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.548);
-}
-
 .bubbles {
     position: relative;
     display: flex;
