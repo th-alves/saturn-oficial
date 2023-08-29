@@ -181,11 +181,11 @@
 
     header img{
         position: fixed;
-        left: 5%;
+        left: 46.5%;
     }
 
     header {
-        position:static;
+        position: static;
         top: 0;
         left: 0;
         width: 100%;
@@ -202,24 +202,19 @@
         display: flex;
     }
 
-    .rx {
+    .bubbles span {
         position: relative;
-        width: 900px;
+        width: 30px;
+        height: 30px;
         margin: 0 4px;
         background: url(../imagens/saturn-rxx-removebg.png) no-repeat;
         background-size: contain;
         animation: animate 15s linear infinite;
         animation-duration: calc(125s / var(--i));
     }
-    
-    .star {
-        position: relative;
-        width: 900px;
-        margin: 0 4px;
+    .bubbles span:nth-child(even) {
         background: url(../imagens/saturn-favicon.ico) no-repeat;
         background-size: contain;
-        animation: animate 15s linear infinite;
-        animation-duration: calc(125s / var(--i));
     }
     
     @keyframes animate {
