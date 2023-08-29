@@ -181,7 +181,7 @@
 
     header img{
         position: fixed;
-        left: 46.5%;
+        left: 48.5%;
     }
 
     header {
@@ -224,7 +224,6 @@
         100%{
             transform: translateY(-0vh) scale(1);
         }
-        
     }
 
     #menu {
@@ -343,25 +342,14 @@
     }
 
     main {
-        position: relative;
-        top: 20%;
-    }
-
-    #insta {
         position: absolute;
-        top: 610px;
-        left: 49.7%;
-    
-        color: black;
-    }
-    
-    #insta:hover {
-        cursor: pointer;
+        left: 48.5%;
     }
 
     footer {
-        position: relative;
-        top: 30%;
+        position: absolute;
+        top: 90%;
+        left: 50%;
     }
 }
 

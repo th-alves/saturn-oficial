@@ -55,8 +55,9 @@ header img {
 }
 
 main {
-    position: relative;
-    top: 30%;
+    position: absolute;
+    top: 25%;
+    left: 35%;
 }
 
 /*Configurações da Sidebar*/
@@ -363,11 +364,6 @@ svg {
     transition: transform 400ms 350ms;
     }
 /*Configurações Alteráveis*/
-
-.img-container {
-    display: none;
-}
-
 #carrinho {
     position: absolute;
     top: 10%;
@@ -459,8 +455,9 @@ svg {
 }
 
 footer {
-    position: relative;
-    top: 30%;
+    position: absolute;
+    top: 90%;
+    left: 41%;
     font-size: 0.8em;
     text-align: center;
 }
