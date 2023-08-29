@@ -461,7 +461,9 @@
 }
 
 @media screen and (min-width: 414px) and (max-width: 428px) { /*Iphone*/
-
+    #user {
+        background-color: purple;
+    }
     .bubbles {
         position: relative;
         display: flex;
