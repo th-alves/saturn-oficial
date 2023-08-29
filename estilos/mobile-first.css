@@ -50,7 +50,7 @@ header img {
         transform: translateY(82vh) scale(1);
     }
     100%{
-        transform: translateY(-0vh) scale(8);
+        transform: translateY(-0vh) scale(7);
     }
 }
 
