@@ -15,12 +15,14 @@
 
 body {
     height: 100vh;
-    background: url(../imagens/bg-pink.jpg) center center no-repeat;
-    background-size: cover;
+    background: white;
 }
 
 header img {
-    display: none;
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 10px;
 }
 
 header p {
@@ -32,6 +34,31 @@ header p {
     font-size: 3rem;
 
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.548);
+}
+
+.bubbles {
+    position: relative;
+    display: flex;
+}
+
+.bubbles span {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 0 4px;
+    
+    animation: animate 15s linear infinite;
+    animation-duration: calc(70s / var(--i));
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(87vh) scale(0.3);
+    }
+    100%{
+        transform: translateY(-15vh) scale(1);
+    }
+    
 }
 
 main {
@@ -60,17 +87,17 @@ main {
     transform: translateX(0);
 }
 
-.sidebar .logo_content .logo {
+.sidebar .logo_content .logo img {
     display: flex;
     height: 50px;
     width: 100%;
 
-    font-size: 30px;
-    margin-left: 50px;
+    
+    margin-left: 30px;
 
     align-items: center;
     pointer-events: none;
-    opacity: 0;
+    opacity: 1;
 }
 
 .sidebar.active .logo_content .logo {
@@ -78,10 +105,7 @@ main {
 }
 
 .sidebar .logo_content .logo .logo_name {
-    font-size: 23px;
-    font-weight: 600px;
-
-    font-family: 'Rubik Wet Paint', cursive;
+    width: 100px;
 }
 
 .sidebar .src {

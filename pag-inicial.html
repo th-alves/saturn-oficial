@@ -13,8 +13,8 @@
 </head>
 <body>
     <header>
-        <p>Saturn</p>
-        <img src="imagens/st-logo.png" alt="gif saturn">
+        
+        <img src="imagens/SATURN_PHARM_rx.png" alt="gif saturn">
         <nav id='menu'>
             <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
                 <ul>
@@ -32,6 +32,56 @@
                 </ul>
           </nav>
     </header>
+
+    <div class="container">
+        <div class="bubbles">
+            <span style="--i:11;">Saturn</span>
+            <span style="--i:12;">Rx</span>
+            <span style="--i:24;">Saturn</span>
+            <span style="--i:10;">Rx</span>
+            <span style="--i:14;">Saturn</span>
+            <span style="--i:23;">Rx</span>
+            <span style="--i:18;">Saturn</span>
+            <span style="--i:16;">Rx</span>
+            <span style="--i:19;">Saturn</span>
+            <span style="--i:20;">Rx</span>
+            <span style="--i:22;">Saturn</span>
+            <span style="--i:25;">Rx</span>
+            <span style="--i:18;">Saturn</span>
+            <span style="--i:21;">Rx</span>
+            <span style="--i:15;">Saturn</span>
+            <span style="--i:13;">Rx</span>
+            <span style="--i:26;">Saturn</span>
+            <span style="--i:17;">Rx</span>
+            <span style="--i:13;">Saturn</span>
+            <span style="--i:28;">Rx</span>
+            <span style="--i:11;">Saturn</span>
+            <span style="--i:12;">Rx</span>
+            <span style="--i:24;">Saturn</span>
+            <span style="--i:10;">Rx</span>
+            <span style="--i:14;">Saturn</span>
+            <span style="--i:23;">Rx</span>
+            <span style="--i:18;">Saturn</span>
+            <span style="--i:16;">Rx</span>
+            <span style="--i:19;">Saturn</span>
+            <span style="--i:20;">Rx</span>
+            <span style="--i:22;">Saturn</span>
+            <span style="--i:25;">Rx</span>
+            <span style="--i:18;">Saturn</span>
+            <span style="--i:21;">Rx</span>
+            <span style="--i:15;">Saturn</span>
+            <span style="--i:13;">Rx</span>
+            <span style="--i:26;">Saturn</span>
+            <span style="--i:17;">Rx</span>
+            <span style="--i:13;">Saturn</span>
+            <span style="--i:28;">Rx</span>
+            <span style="--i:16;">Saturn</span>
+            <span style="--i:14;">Rx</span>
+            <span style="--i:24;">Saturn</span>
+            <span style="--i:18;">Rx</span>
+            <span style="--i:14;">Saturn</span>
+            <span style="--i:22;">Rx</span>
+        </div>
 
     <main>
         <section>
@@ -57,7 +107,7 @@
     <div class="sidebar">
         <div class="logo_content">
             <div class="logo">
-                <div class="logo_name">Saturn</div>
+                <div class="logo_name"><img src="imagens/SATURN_PHARM_rx.png" alt=""></div>
             </div>
         </div>
 
@@ -123,14 +173,21 @@
           </svg>
         </div>
 
-    <footer>&copy 2023,<a href="https://www.instagram.com/saturnsonline/" target="_blank"> Saturn</a><br>By <a href="https://www.instagram.com/th_ntc" target="_blank">Thgx$</a></footer>
+    <footer class="footer">&copy 2023,<a href="https://www.instagram.com/saturnsonline/" target="_blank"> Saturn</a><br>By <a href="https://www.instagram.com/th_ntc" target="_blank">Thgx$</a></footer>
 
     <script>
         //Menu Hamburguinho
         let burger = document.querySelector('.burger');
         let sidebar = document.querySelector('.sidebar');
         let x = document.querySelector('.x');
+        let footer = document.querySelector('.footer');
 
+        burger.addEventListener('click', () =>{
+            footer.style.display = 'none'
+        });
+        x.addEventListener('click', () => {
+            footer.style.display = 'block'
+        });
         burger.onclick = function(){
             sidebar.classList.toggle('active');
         }
