@@ -201,15 +201,25 @@
         position: relative;
         display: flex;
     }
-    
-    .bubbles span {
+
+    .rx {
         position: relative;
-        width: 30px;
-        height: 30px;
+        width: 900px;
         margin: 0 4px;
-        
+        background: url(../imagens/saturn-rxx-removebg.png) no-repeat;
+        background-size: contain;
         animation: animate 15s linear infinite;
-        animation-duration: calc(90s / var(--i));
+        animation-duration: calc(125s / var(--i));
+    }
+    
+    .star {
+        position: relative;
+        width: 900px;
+        margin: 0 4px;
+        background: url(../imagens/saturn-favicon.ico) no-repeat;
+        background-size: contain;
+        animation: animate 15s linear infinite;
+        animation-duration: calc(125s / var(--i));
     }
     
     @keyframes animate {
@@ -217,7 +227,7 @@
             transform: translateY(82vh) scale(0.3);
         }
         100%{
-            transform: translateY(-20vh) scale(1);
+            transform: translateY(-0vh) scale(1);
         }
         
     }
