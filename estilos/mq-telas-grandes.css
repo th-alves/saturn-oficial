@@ -459,3 +459,35 @@
         left: 45%;
     }
 }
+
+@media screen and (min-width: 414px) and (max-width: 428px) { /*Iphone*/
+
+    .bubbles {
+        position: relative;
+        display: flex;
+    }
+
+    .bubbles span {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        margin: 0 4px;
+        background: url(../imagens/saturn-rxx-removebg.png) no-repeat;
+        background-size: contain;
+        animation: animate 15s linear infinite;
+        animation-duration: calc(50s / var(--i));
+    }
+    .bubbles span:nth-child(even) {
+        background: url(../imagens/saturn-favicon.ico) no-repeat;
+        background-size: contain;
+    }
+    
+    @keyframes animate {
+        0%{
+            transform: translateY(97vh) scale(0);
+        }
+        100%{
+            transform: translateY(-0vh) scale(8);
+        }
+    }
+}
