@@ -47,10 +47,10 @@ header img {
 
 @keyframes animate {
     0%{
-        transform: translateY(82vh) scale(1);
+        transform: translateY(82vh) scale(0);
     }
     100%{
-        transform: translateY(-0vh) scale(3);
+        transform: translateY(-0vh) scale(1);
     }
 }
 
