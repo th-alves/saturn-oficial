@@ -210,7 +210,7 @@
         background: url(../imagens/saturn-rxx-removebg.png) no-repeat;
         background-size: contain;
         animation: animate 15s linear infinite;
-        animation-duration: calc(125s / var(--i));
+        animation-duration: calc(50s / var(--i));
     }
     .bubbles span:nth-child(even) {
         background: url(../imagens/saturn-favicon.ico) no-repeat;
