@@ -462,7 +462,7 @@
 
 @media screen and (min-width: 414px) and (max-width: 428px) { /*Iphone*/
     #user {
-        background-color: rgb(80, 0, 80);
+        background-color: rgb(0, 217, 255);
     }
     .bubbles {
         position: relative;
@@ -489,7 +489,7 @@
             transform: translateY(97vh) scale(1);
         }
         100%{
-            transform: translateY(-0vh) scale(30);
+            transform: translateY(-0vh) scale(90);
         }
     }
 }
