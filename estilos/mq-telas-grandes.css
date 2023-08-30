@@ -464,8 +464,22 @@
 
     #user {
         position: absolute;
-        top: 20%;
-        background-color: rgb(21, 255, 0);
+        top: 10%;
+    }
+
+    #carrinho{
+        position: absolute;
+        top: 2%;
+    }
+
+    .plate {
+        position: relative;
+        top: -90%;
+    }
+
+    .plates {
+        position: absolute;
+        top: -50%;
     }
 
     .container {
@@ -495,16 +509,16 @@
     
     @keyframes animate {
         0% {
-            transform: translateY(100vh) scale(1);
+            transform: translateY(50vh) scale(1);
         }
         100% {
-            transform: translateY(-100vh) scale(5);
+            transform: translateY(-100vh) scale(4);
         }
     }
 
     footer {
         position: absolute;
         top: 93%;
-        left: 45%;
+        left: 43%;
     }
 }
