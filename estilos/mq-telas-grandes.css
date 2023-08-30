@@ -462,6 +462,10 @@
 
 @media screen and (min-width: 360px) and (max-width: 428px) { /*Iphone*/
 
+    body {
+        height: 100vh;
+    }
+
     #user {
         position: absolute;
         top: 10%;
@@ -472,9 +476,15 @@
         top: 2%;
     }
 
+    main {
+        position: absolute;
+        top: 15%;
+        left: 32%;
+    }
+
     .plate {
         position: relative;
-        top: -90%;
+        top: -103%;
     }
 
     .plates {
@@ -485,7 +495,7 @@
     .container {
         position: relative;
         width: 100%;
-        height: 100vh;
+        height: 87vh;
         overflow: hidden;
     }
     
@@ -518,7 +528,7 @@
 
     footer {
         position: absolute;
-        top: 93%;
-        left: 43%;
+        top: 90%;
+        left: 39%;
     }
 }
