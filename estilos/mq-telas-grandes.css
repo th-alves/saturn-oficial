@@ -548,6 +548,7 @@
     }
 
     #user {
+        background-color: aqua;
         position: absolute;
         top: 10%;
         left: 76%;
@@ -638,7 +639,7 @@
     }
 }
 
-@media screen and (min-width: 428px) and (max-width: 900px) { 
+@media screen and (min-width: 428px) and (max-width: 720px) { 
     /*Smartphones Android*/
     
     body {
@@ -646,7 +647,7 @@
     }
 
     #user {
-        background-color: rgb(3, 0, 155);
+        background-color: rgb(0, 155, 65);
         position: absolute;
         top: 10%;
     }
