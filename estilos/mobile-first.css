@@ -57,7 +57,7 @@ header img {
 main {
     position: absolute;
     top: 25%;
-    left: 35%;
+    left: 20%;
 }
 
 /*Configurações da Sidebar*/
@@ -411,7 +411,9 @@ svg {
     margin-top: 30px;
     margin-bottom: 80px;
 
-    border: 2px solid rgb(0, 0, 0);
+    background: url(../imagens-roupas/saturn-black-shirt-back-v2.jpeg) no-repeat center center;
+    background-size: 115%;
+
     border-radius: 10px;
     box-sizing: border-box;
 
@@ -423,9 +425,11 @@ svg {
 }
 
 .quadrado1:hover {
-    transform: matrix(0, 1, 1, 0, 0, 0);
-    border-color: rgb(255, 0, 0);
+    transform: scale(1.1);
     cursor: pointer;
+
+    background: url(../imagens-roupas/saturn-black-shirt-back.jpeg);
+    background-size: 110%;
 
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.703);
 }
@@ -435,7 +439,9 @@ svg {
     height: 150px;
     margin: auto;
 
-    border: 2px solid black;
+    background: url(../imagens-roupas/saturn-white-shirt-front.jpeg) no-repeat center center;
+    background-size: 110%;
+
     border-radius: 10px;
     box-sizing: border-box;
 
@@ -447,9 +453,12 @@ svg {
 }
 
 .quadrado2:hover {
-    transform: matrix(0, 1, 1, 0, 0, 0);
+    transform: scale(1.1);
     border-color: rgb(255, 0, 0);
     cursor: pointer;
+
+    background: url(../imagens-roupas/saturn-white-shirt-back.jpeg) no-repeat center center;
+    background-size: 110%;
 
     box-shadow: 2px 2px 15px black;
 }
