@@ -604,11 +604,13 @@
     .plate {
         position: relative;
         top: -103%;
+        left: -6%;
     }
 
     .plates {
         position: absolute;
         top: -50%;
+        left: 0%;
     }
 
     .container {
