@@ -758,7 +758,7 @@
         margin: 0 2px;
         background-size: contain;
         animation: animate 15s linear infinite;
-        animation-duration: calc(80s / var(--i));
+        animation-duration: calc(120s / var(--i));
     }
     
     @keyframes animate {
