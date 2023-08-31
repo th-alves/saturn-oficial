@@ -645,6 +645,7 @@
     }
 
     #user {
+        background-color: purple;
         position: absolute;
         top: 10%;
     }
