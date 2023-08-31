@@ -610,7 +610,11 @@
     .plates {
         position: absolute;
         top: -50%;
-        left: 0%;
+    }
+
+    .x {
+        position: absolute;
+        left: 200px;
     }
 
     .container {
