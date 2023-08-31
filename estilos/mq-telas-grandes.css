@@ -638,7 +638,7 @@
     }
 }
 
-@media screen and (min-width: 360px) and (max-width: 428px) { 
+@media screen and (min-width: 360px) and (max-width: 901px) { 
     /*Smartphones Apple*/
 
     body {
@@ -777,8 +777,8 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 870px) { 
-/*Smartphones Android*/
+/*@media screen and (min-width: 360px) and (max-width: 901px) { 
+/*Smartphones Android
 
     body {
         height: 100vh;
