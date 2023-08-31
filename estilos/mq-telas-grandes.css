@@ -638,14 +638,14 @@
     }
 }
 
-@media screen and (min-width: 360px) and (max-width: 428px) { /*Iphone*/
+@media screen and (min-width: 360px) and (max-width: 428px) { 
+    /*Smartphones Apple*/
 
     body {
         height: 100vh;
     }
 
     #user {
-        background-color: purple;
         position: absolute;
         top: 10%;
     }
@@ -774,5 +774,145 @@
         position: absolute;
         top: 90%;
         left: 39%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 360px) { 
+/*Smartphones Android*/
+
+    body {
+        height: 100vh;
+    }
+
+    #user {
+        background-color: aqua;
+        position: absolute;
+        top: 10%;
+    }
+
+    #carrinho{
+        position: absolute;
+        top: 2%;
+    }
+
+    main {
+        position: absolute;
+        top: 15%;
+        left: 27%;
+    }
+
+    .quadrado1 {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 80px;
+
+        background: url(../imagens-roupas/saturn-black-shirt-back-v2.jpeg) no-repeat center center;
+        background-size: 115%;
+
+        border-radius: 10px;
+        box-sizing: border-box;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: transform 0.6s ease;
+    }
+
+    .quadrado1:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+
+        background: url(../imagens-roupas/saturn-black-shirt-back.jpeg);
+        background-size: 110%;
+
+        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.703);
+    }
+
+    .quadrado2 {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+
+        background: url(../imagens-roupas/saturn-white-shirt-front.jpeg) no-repeat center center;
+        background-size: 110%;
+
+        border-radius: 10px;
+        box-sizing: border-box;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: transform 0.6s ease;
+    }
+
+    .quadrado2:hover {
+        transform: scale(1.1);
+        border-color: rgb(255, 0, 0);
+        cursor: pointer;
+
+        background: url(../imagens-roupas/saturn-white-shirt-back.jpeg) no-repeat center center;
+        background-size: 110%;
+
+        box-shadow: 2px 2px 15px black;
+    }
+
+    .plate {
+        position: relative;
+        top: -101.5%;
+        left: -7%;
+    }
+
+    .plates {
+        position: absolute;
+        top: -50%;
+    }
+
+    .x {
+        position: absolute;
+        left: 200px;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        height: 87vh;
+        overflow: hidden;
+    }
+
+    .bubbles {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 80vh;
+    }
+
+    .bubbles span {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        margin: 0 2px;
+        background-size: contain;
+        animation: animate 15s linear infinite;
+        animation-duration: calc(120s / var(--i));
+    }
+
+    @keyframes animate {
+        0% {
+            transform: translateY(50vh) scale(1);
+        }
+        100% {
+            transform: translateY(-100vh) scale(4);
+        }
+    }
+
+    footer {
+        position: absolute;
+        top: 92%;
+        left: 35%;
     }
 }
