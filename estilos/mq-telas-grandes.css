@@ -179,13 +179,13 @@
 
     main {
         position: absolute;
-        top: 30%;
+        top: 20%;
         left: 47%;
     }
 
     .quadrado1 {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         margin: auto;
         margin-top: 30px;
         margin-bottom: 80px;
@@ -214,8 +214,8 @@
     }
     
     .quadrado2 {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
         margin: auto;
     
         background: url(../imagens-roupas/saturn-white-shirt-front.jpeg) no-repeat center center;
