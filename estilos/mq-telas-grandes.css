@@ -660,7 +660,7 @@
     main {
         position: absolute;
         top: 15%;
-        left: 27%;
+        left: 32%;
     }
 
     .quadrado1 {
@@ -688,7 +688,7 @@
         cursor: pointer;
 
         background: url(../imagens-roupas/saturn-black-shirt-back.jpeg);
-        background-size: 110%;
+        background-size: 105%;
 
         box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.703);
     }
@@ -724,8 +724,8 @@
 
     .plate {
         position: relative;
-        top: -101.5%;
-        left: -7%;
+        top: -100%;
+        left: -3%;
     }
 
     .plates {
@@ -775,7 +775,7 @@
     footer {
         position: absolute;
         top: 92%;
-        left: 35%;
+        left: 39%;
     }
 }
 
