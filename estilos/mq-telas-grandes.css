@@ -548,7 +548,6 @@
     }
 
     #user {
-        background-color: aqua;
         position: absolute;
         top: 10%;
         left: 76%;
@@ -647,7 +646,6 @@
     }
 
     #user {
-        background-color: rgb(155, 152, 0);
         position: absolute;
         top: 10%;
     }
