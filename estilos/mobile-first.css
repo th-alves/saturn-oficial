@@ -61,12 +61,6 @@ header img {
     }
 }
 
-main {
-    position: absolute;
-    top: 25%;
-    left: 20%;
-}
-
 /*Configurações da Sidebar*/
 .sidebar {
     position: fixed;
@@ -195,7 +189,7 @@ main {
 
 .sidebar ul li a:hover {
     color: white;
-    background: rgb(144, 0, 255);
+    background: rgb(255, 0, 0);
 }
 
 .sidebar .link_name {
@@ -411,61 +405,74 @@ svg {
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
 }
 
-.quadrado1 {
+.fileira-1 {
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px -90px;
+}
+
+.img1 {
     width: 150px;
     height: 150px;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 80px;
 
-    background: url(../imagens-roupas/saturn-black-shirt-back-v2.jpeg) no-repeat center center;
-    background-size: 115%;
+    background: url(../imagens-roupas/saturn-black-shirt-front.jpeg) no-repeat center center;
+    background-size: 112%;
 
     border-radius: 10px;
-    box-sizing: border-box;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     transition: transform 0.6s ease;
 }
 
-.quadrado1:hover {
+.img1:hover {
     transform: scale(1.1);
     cursor: pointer;
 
-    background: url(../imagens-roupas/saturn-black-shirt-back.jpeg);
+    background: url(../imagens-roupas/saturn-black-shirt-back.jpeg) no-repeat center center;
     background-size: 110%;
 
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.703);
 }
 
-.quadrado2 {
+.img2 {
     width: 150px;
     height: 150px;
-    margin: auto;
 
     background: url(../imagens-roupas/saturn-white-shirt-front.jpeg) no-repeat center center;
     background-size: 110%;
 
     border-radius: 10px;
-    box-sizing: border-box;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     transition: transform 0.6s ease;
 }
 
-.quadrado2:hover {
+.img2:hover {
     transform: scale(1.1);
-    border-color: rgb(255, 0, 0);
     cursor: pointer;
 
     background: url(../imagens-roupas/saturn-white-shirt-back.jpeg) no-repeat center center;
     background-size: 110%;
+
+    box-shadow: 2px 2px 15px black;
+}
+
+.img3 {
+    width: 150px;
+    height: 150px;
+
+    background: url(../imagens-roupas/saturn-black-shirt-back-v2.jpeg) no-repeat center center;
+    background-size: 110%;
+
+    border-radius: 10px;
+
+    transition: transform 0.6s ease;
+}
+
+.img3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 
     box-shadow: 2px 2px 15px black;
 }
