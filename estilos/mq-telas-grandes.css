@@ -618,17 +618,12 @@
     }
 
     .fileira-1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        max-width: 60%;
-        margin: -300px 140px;
+        margin: -200px -75px;
     }
 
     .plate {
         position: relative;
-        top: -30%;
+        top: -95%;
         left: -2%;
     }
 
