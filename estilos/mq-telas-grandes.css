@@ -249,7 +249,7 @@
         background: url(../imagens-roupas/saturn-black-shirt-back.jpeg) no-repeat center center;
         background-size: 110%;
     
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.703);
+        box-shadow: 2px 2px 15px rgba(255, 0, 0, 0.703);
     }
     
     .img2 {
@@ -271,7 +271,7 @@
         background: url(../imagens-roupas/saturn-white-shirt-back.jpeg) no-repeat center center;
         background-size: 110%;
     
-        box-shadow: 2px 2px 15px black;
+        box-shadow: 2px 2px 15px rgba(255, 0, 0, 0.703);
     }
 
     .img3 {
@@ -289,8 +289,8 @@
     .img3:hover {
         transform: scale(1.1);
         cursor: pointer;
-    
-        box-shadow: 2px 2px 15px black;
+        
+        box-shadow: 2px 2px 15px rgba(255, 0, 0, 0.703);
     }
 
     .img4 {
@@ -311,8 +311,8 @@
     
         background: url(../imagens-roupas/saturn-black-shirt-back.jpeg) no-repeat center center;
         background-size: 110%;
-    
-        box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.703);
+        
+        box-shadow: 2px 2px 15px rgba(255, 0, 0, 0.703);
     }
     
     .img5 {
@@ -334,7 +334,7 @@
         background: url(../imagens-roupas/saturn-white-shirt-back.jpeg) no-repeat center center;
         background-size: 110%;
     
-        box-shadow: 2px 2px 15px black;
+        box-shadow: 2px 2px 15px rgba(255, 0, 0, 0.703);
     }
 
     .img6 {
@@ -352,8 +352,8 @@
     .img6:hover {
         transform: scale(1.1);
         cursor: pointer;
-    
-        box-shadow: 2px 2px 15px rgb(0, 0, 0);
+        
+        box-shadow: 2px 2px 15px rgba(255, 0, 0, 0.703);
     }
 
     .container {
