@@ -260,17 +260,13 @@
         display: none;
     }
 
-    header p {
-        display: none;
-    }
-
     header img{
-        position: fixed;
+        position: absolute;
         left: 48%;
     }
 
     header {
-        position: static;
+        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
@@ -282,32 +278,119 @@
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
     }
 
-    .bubbles {
+    .container {
         position: relative;
-        display: flex;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
     }
-
-    .bubbles span {
-        position: relative;
-        width: 30px;
-        height: 30px;
-        margin: 0 4px;
-        background: url(../imagens/saturn-rxx-removebg.png) no-repeat;
+    
+    .stars {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    
+    .stars span {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        display: block;
+        background: url(../imagens/saturn-rxx-removebg.png) no-repeat center center;
         background-size: contain;
-        animation: animate 15s linear infinite;
-        animation-duration: calc(50s / var(--i));
     }
-    .bubbles span:nth-child(even) {
+    .stars span:nth-child(even) {
         background: url(../imagens/saturn-favicon.ico) no-repeat;
         background-size: contain;
     }
     
-    @keyframes animate {
-        0%{
-            transform: translateY(82vh) scale(0.3);
+    .stars span:nth-child(1) {
+        left: 700px;
+        animation: speed 12s infinite linear;
+    }
+    
+    .stars span:nth-child(2) {
+        left: 500px;
+        animation: speed 16s infinite linear;
+    }
+    
+    .stars span:nth-child(3) {
+        left: 200px;
+        animation: speed 20s infinite linear;
+    }
+    
+    .stars span:nth-child(4) {
+        left: 400px;
+        animation: speed 15s infinite linear;
+    }
+    
+    .stars span:nth-child(5) {
+        left: 100px;
+        animation: speed 13s infinite linear;
+    }
+    
+    .stars span:nth-child(6) {
+        left: 950px;
+        animation: speed 22s infinite linear;
+    }
+    
+    .stars span:nth-child(7) {
+        left: 250px;
+        animation: speed 21s infinite linear;
+    }
+    
+    .stars span:nth-child(8) {
+        left: 550px;
+        animation: speed 19s infinite linear;
+    }
+    
+    .stars span:nth-child(9) {
+        left: 600px;
+        animation: speed 24s infinite linear;
+    }
+    
+    .stars span:nth-child(10) {
+        left: 750px;
+        animation: speed 19s infinite linear;
+    }
+    
+    .stars span:nth-child(11) {
+        left: 1100px;
+        animation: speed 12s infinite linear;
+    }
+    
+    .stars span:nth-child(12) {
+        left: 1200px;
+        animation: speed 17s infinite linear;
+    }
+    
+    @keyframes speed {
+        0% {
+            opacity: 0;
+            bottom: -10%;
+            transform: translateY(20px);
         }
-        100%{
-            transform: translateY(-0vh) scale(1);
+        10% {
+            opacity: 1;
+        }
+        20% {
+            transform: translateY(20px);
+        }
+        40% {
+            transform: translateY(20px);
+        }
+        60% {
+            transform: translateY(20px);
+        }
+        80% {
+            transform: translateY(20px);
+        }
+        100% {
+            bottom: 110%;
+            transform: translateY(20px);
         }
     }
 
@@ -402,13 +485,13 @@
 
     #carrinho {
         position: absolute;
-        top: 16%;
+        top: 15%;
         left: 82%;
     }
 
     #user {
         position: absolute;
-        top: 16%;
+        top: 15%;
         left: 78%;
     
         border: 2px solid black;
@@ -867,7 +950,7 @@
 
     .plate {
         position: relative;
-        top: -103%;
+        top: -9.5%;
         left: -6%;
     }
 
@@ -882,38 +965,120 @@
     }
 
     .container {
-        position: relative;
-        width: 100%;
-        height: 87vh;
-        overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.stars span {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: block;
+    background: url(../imagens/saturn-rxx-removebg.png) no-repeat center center;
+    background-size: contain;
+}
+.stars span:nth-child(even) {
+    background: url(../imagens/saturn-favicon.ico) no-repeat;
+    background-size: contain;
+}
+
+.stars span:nth-child(1) {
+    left: 290px;
+    animation: speed 12s infinite linear;
+}
+
+.stars span:nth-child(2) {
+    left: 240px;
+    animation: speed 16s infinite linear;
+}
+
+.stars span:nth-child(3) {
+    left: 270px;
+    animation: speed 20s infinite linear;
+}
+
+.stars span:nth-child(4) {
+    left: 160px;
+    animation: speed 15s infinite linear;
+}
+
+.stars span:nth-child(5) {
+    left: 50px;
+    animation: speed 13s infinite linear;
+}
+
+.stars span:nth-child(6) {
+    left: 120px;
+    animation: speed 22s infinite linear;
+}
+
+.stars span:nth-child(7) {
+    left: 250px;
+    animation: speed 21s infinite linear;
+}
+
+.stars span:nth-child(8) {
+    left: 300px;
+    animation: speed 29s infinite linear;
+}
+
+.stars span:nth-child(9) {
+    left: 290px;
+    animation: speed 24s infinite linear;
+}
+
+.stars span:nth-child(10) {
+    left: 270px;
+    animation: speed 29s infinite linear;
+}
+
+.stars span:nth-child(11) {
+    left: 310px;
+    animation: speed 12s infinite linear;
+}
+
+.stars span:nth-child(12) {
+    left: 570px;
+    animation: speed 27s infinite linear;
+}
+
+@keyframes speed {
+    0% {
+        opacity: 0;
+        bottom: -10%;
+        transform: translateY(20px);
     }
-    
-    .bubbles {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        height: 80vh;
+    10% {
+        opacity: 1;
     }
-    
-    .bubbles span {
-        position: relative;
-        width: 20px;
-        height: 20px;
-        margin: 0 2px;
-        background-size: contain;
-        animation: animate 15s linear infinite;
-        animation-duration: calc(120s / var(--i));
+    20% {
+        transform: translateY(20px);
     }
-    
-    @keyframes animate {
-        0% {
-            transform: translateY(50vh) scale(1);
-        }
-        100% {
-            transform: translateY(-100vh) scale(4);
-        }
+    40% {
+        transform: translateY(20px);
     }
+    60% {
+        transform: translateY(20px);
+    }
+    80% {
+        transform: translateY(20px);
+    }
+    100% {
+        bottom: 110%;
+        transform: translateY(20px);
+    }
+}
 
     footer {
         position: absolute;
