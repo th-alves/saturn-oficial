@@ -197,7 +197,7 @@
 
     header img{
         position: absolute;
-        left: 48%;
+        left: 45%;
     }
 
     header {
@@ -393,8 +393,6 @@
     }
 
     #menu {
-        position: relative;
-        left: 70%;
         color: black;
         height: 45px;
         padding-left: 18px;
@@ -510,7 +508,7 @@
     footer {
         position: absolute;
         top: 94%;
-        left: 50%;
+        left: 47%;
     }
 }
 
