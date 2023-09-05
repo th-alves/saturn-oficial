@@ -64,7 +64,7 @@ header img {
 
 /*Configurações da Sidebar*/
 .sidebar {
-    position: fixed;
+    position: absolute;
     top:  0;
     left: 0;
     
@@ -543,23 +543,6 @@ section div {
     cursor: pointer;
 
     box-shadow: 2px 2px 15px black;
-}
-
-footer {
-    position: absolute;
-    top: 90%;
-    left: 41%;
-    font-size: 0.8rem;
-    text-align: center;
-}
-
-footer > a {
-    text-decoration: none;
-    color: black;
-}
-
-footer > a:hover {
-    text-decoration: underline;
 }
 
 @media (max-width: 767px) {
