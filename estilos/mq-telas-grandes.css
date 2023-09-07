@@ -91,8 +91,8 @@
 
     main {
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 60%;
+        left: 40%;
 
         transform: translate(-50%, -50%);
     }
@@ -261,6 +261,6 @@
 
     .col-3 {
         position: absolute;
-        left: 43%;
+        left: 42%;
     }
 }
