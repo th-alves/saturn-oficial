@@ -383,6 +383,13 @@
 
     .col-3 {
         position: absolute;
-        left: 45.5%;
+        left: 46%;
+    }
+}
+
+@media (width: 1920px) {
+    .col-2 {
+        position: relative;
+        left: 1.9%;
     }
 }
