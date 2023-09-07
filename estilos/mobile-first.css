@@ -368,7 +368,7 @@ svg {
 /*Configurações Alteráveis*/
 #carrinho {
     position: absolute;
-    top: 10%;
+    top: 12%;
     left: 82%;
 
     border: 2px solid black;
@@ -388,7 +388,7 @@ svg {
 
 #user {
     position: absolute;
-    top: 16%;
+    top: 18%;
     left: 82.5%;
 
     border: 2px solid black;
@@ -543,6 +543,160 @@ section div {
     cursor: pointer;
 
     box-shadow: 2px 2px 15px black;
+}
+/*CONFIGS DO MQ*/
+main {
+    position: absolute;
+    top: 35%;
+    left: 38%;
+}
+
+.fileira-1 {
+    margin: 10px -75px;
+}
+
+.plate {
+    position: relative;
+    top: -10%;
+    left: -6%;
+}
+
+.plates {
+    position: absolute;
+    top: -50%;
+}
+
+.x {
+    position: relative;
+    left: 200px;
+}
+
+.container {
+position: relative;
+width: 100%;
+height: 100vh;
+overflow: hidden;
+}
+
+.bubbles {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80vh;
+}
+
+.bubbles span {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    background-size: contain;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(120s / var(--i));
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(50vh) scale(1);
+    }
+    100% {
+        transform: translateY(-100vh) scale(4);
+    }
+}
+
+footer {
+    position: absolute;
+    top: 100%;        
+    width: 100%;
+    padding: 20px 5% 200px;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+
+footer hr {
+    display: none;
+}
+
+footer div {
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+footer div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+form input {
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+    transition: transform .4s ease-in-out;
+}
+
+form button:hover {
+    color: black;
+    border-color: black;
+    background-color: #efefef;
+
+    transform: scale(1.05);
+}
+
+.col-3 {
+    position: absolute;
+    top: 65%;
+    left: 25%;
+}
+
+.col-3 h3 {
+    margin-bottom: 0px;
+}
+
+.social-icons i {
+    color: white;
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: aqua;
+}
+
+.social-icons p {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+    color: aqua;
 }
 
 @media (max-width: 767px) {
