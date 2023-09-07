@@ -26,6 +26,29 @@ header img {
     padding: 10px;
 }
 
+main {
+    height: 80vh;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+section div {
+    position: relative;
+    top: 100px;
+    left: 25%;
+}
+
+.fileira-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .container {
     position: relative;
     width: 100%;
@@ -246,44 +269,44 @@ header img {
 svg {
     position: absolute;
     width: 60px;
-    }
+}
 
-    .plates {
+.plates {
     display: flex;
     flex-wrap: wrap;
     max-height: 160px;
     width: 640px;
-    }
+}
 
-    .plate {
+.plate {
     height: 80px;
     width: 80px;
-    }
+}
 
-    .burger {
+.burger {
     filter: url(#gooeyness);
     top: 65px;
     left: 35px;
-    }
+}
 
-    .burger:hover {
-        cursor: pointer;
-    }
+.burger:hover {
+    cursor: pointer;
+}
 
-    .x {
+.x {
     position: absolute;
     top: 63px;
     left: 170px;
     
     transform: scale(0);
     transition: transform 400ms;
-    }
+}
 
-    .x:hover {
-        cursor: pointer;
-    }
+.x:hover {
+    cursor: pointer;
+}
 
-    .line {
+.line {
     fill: none;
     stroke: black;
     stroke-width: 6px;
@@ -291,81 +314,103 @@ svg {
     stroke-linejoin: round;
     transform-origin: 50%;
     transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms, transform 500ms 200ms;
-    }
+}
 
-    .x .line {
+.x .line {
     stroke-width: 5.5px;
-    }
+}
 
-    .plate2 .line1 {
+.plate2 .line1 {
     stroke-dasharray: 21 185.62753295898438;
     transition-delay: 0;
-    }
+}
 
-    .plate2 .line2 {
+
+.plate2 .line2 {
     stroke-dasharray: 21 178.6514129638672;
     transition-delay: 30ms;
-    }
+}
 
-    .plate2 .line3 {
+
+.plate2 .line3 {
     stroke-dasharray: 21 197.92425537109375;
     transition-delay: 60ms;
-    }
+}
 
-    .plate2 .line4 {
+
+.plate2 .line4 {
     stroke-dasharray: 21 190.6597137451172;
     transition-delay: 90ms;
-    }
+}
 
-    .plate2 .line5 {
+
+.plate2 .line5 {
     stroke-dasharray: 21 208.52874755859375;
     transition-delay: 120ms;
-    }
+}
 
-    .plate2 .line6 {
+
+.plate2 .line6 {
     stroke-dasharray: 21 186.59703063964844;
     transition-delay: 150ms;
-    }
+}
 
-    .active.plate2 .line1 {
+.active.plate2 .line1 {
     stroke-dasharray: 5 185.62753295898438;
     stroke-dashoffset: -141px;
-    }
+}
 
-    .active.plate2 .line2 {
+.active.plate2 .line2 {
     stroke-dasharray: 5 178.6514129638672;
     stroke-dashoffset: -137px;
-    }
+}
 
-    .active.plate2 .line3 {
+.active.plate2 .line3 {
     stroke-dasharray: 5 197.92425537109375;
     stroke-dashoffset: -176px;
-    }
+}
 
-    .active.plate2 .line4 {
+.active.plate2 .line4 {
     stroke-dasharray: 5 190.6597137451172;
     stroke-dashoffset: -159px;
-    }
+}
 
-    .active.plate2 .line5 {
+.active.plate2 .line5 {
     stroke-dasharray: 5 208.52874755859375;
     stroke-dashoffset: -139px;
-    }
+}
 
-    .active.plate2 .line6 {
+.active.plate2 .line6 {
     stroke-dasharray: 5 186.59703063964844;
     stroke-dashoffset: -176px;
-    }
+}
 
-    .active.plate2 .x {
+.active.plate2 .x {
     transition: transform 400ms 250ms;
-    }
+}
 
-    .active .x {
+.active .x {
     transform: scale(0.8);
     transition: transform 400ms 350ms;
-    }
+}
 /*Configurações Alteráveis*/
+
+.plate {
+    position: relative;
+    top: -10%;
+    left: -6%;
+}
+
+.plates {
+    position: absolute;
+    top: -50%;
+}
+
+.x {
+    position: relative;
+    left: 200px;
+}
+
 #carrinho {
     position: absolute;
     top: 12%;
@@ -544,66 +589,6 @@ section div {
 
     box-shadow: 2px 2px 15px black;
 }
-/*CONFIGS DO MQ*/
-main {
-    position: absolute;
-    top: 35%;
-    left: 38%;
-}
-
-.fileira-1 {
-    margin: 10px -75px;
-}
-
-.plate {
-    position: relative;
-    top: -10%;
-    left: -6%;
-}
-
-.plates {
-    position: absolute;
-    top: -50%;
-}
-
-.x {
-    position: relative;
-    left: 200px;
-}
-
-.container {
-position: relative;
-width: 100%;
-height: 100vh;
-overflow: hidden;
-}
-
-.bubbles {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    height: 80vh;
-}
-
-.bubbles span {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    margin: 0 2px;
-    background-size: contain;
-    animation: animate 15s linear infinite;
-    animation-duration: calc(120s / var(--i));
-}
-
-@keyframes animate {
-    0% {
-        transform: translateY(50vh) scale(1);
-    }
-    100% {
-        transform: translateY(-100vh) scale(4);
-    }
-}
 
 footer {
     position: absolute;
@@ -634,7 +619,7 @@ footer div h3 {
 }
 
 form input {
-    width: 100%;
+    width: calc(100% - 70px);
     height: 45px;
     border-radius: 4px;
     text-align: center;
