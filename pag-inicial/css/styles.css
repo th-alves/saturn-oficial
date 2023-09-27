@@ -927,6 +927,10 @@ a {
     margin: 20px 0px;
   }
 
+  label[for="rememberMe"] {
+    margin-left: -30px;
+  }
+
   .bolhas-container .bolha:nth-child(1) {
     left: 10%;
     animation-delay: 0s;
