@@ -246,14 +246,6 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
-
-/* Estilos responsivos */
-@media screen and (max-width: 768px) {
-  .modal-content {
-      padding: 10px;
-      max-width: 300px;
-  }
-}
 /* LOGIN FORM CONFIG */
 
 hr {
@@ -931,8 +923,8 @@ a {
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 768px) {
 
-  #user {
-    margin-bottom: 10px;
+  #openModalBtn {
+    margin: 20px 0px;
   }
 
   .bolhas-container .bolha:nth-child(1) {
