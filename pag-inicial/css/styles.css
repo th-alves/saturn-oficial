@@ -923,6 +923,10 @@ a {
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 768px) {
 
+  header {
+    height: 30vh;
+  }
+
   #openModalBtn {
     margin: 20px 0px;
   }
