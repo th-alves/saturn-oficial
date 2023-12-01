@@ -2004,6 +2004,10 @@ ul li:last-child {
   }
 }
 @media (min-width: 1400px) {
+  header {
+    height: 40vh;
+  }
+
   .col-xxl {
     flex: 1 0 0%;
   }
