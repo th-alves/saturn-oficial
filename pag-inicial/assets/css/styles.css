@@ -920,6 +920,27 @@ a {
   margin-top: 20px;
 }
 
+#section-roupas #clothes-photos {
+  position: relative;
+  width: 268px;
+  height: 268px;
+}
+
+#section-roupas #clothes-photos #not-hover,
+#section-roupas #clothes-photos .hover {
+  position: absolute;
+  transition: opacity .7s ease-in-out;
+}
+
+#section-roupas #clothes-photos .hover {
+  opacity: 0;
+}
+
+#section-roupas #clothes-photos:hover .hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
 /* Estilos para dispositivos móveis */
 @media screen and (max-width: 768px) {
 
