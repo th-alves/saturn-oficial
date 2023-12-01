@@ -1055,6 +1055,12 @@ a {
 /* Estilos para tablets (largura de tela entre 769px e 1024px) */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
+  #section-roupas #clothes-photos {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+  }
+
   nav #user {
     margin-bottom: 10px;
   }
